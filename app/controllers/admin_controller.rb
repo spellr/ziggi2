@@ -1,11 +1,11 @@
 class AdminController < ApplicationController
   layout 'admin'
-  before_filter :login_check
-  before_filter :admin_check
+  # before_filter :login_check
+  # before_filter :admin_check
 
   def admin_check
     # XXX Use user roles here
-    render :status => 403, :text => "403"
+    # render :status => 403, :text => "403"
   end
 
   def event
