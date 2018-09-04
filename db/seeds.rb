@@ -24,7 +24,7 @@ if University.count == 0
 	      :lat => 32.114022, :lng => 34.804494, :status => 0 }
     ])
 end
-
+Semester.delete_all
 if Semester.count < 1
     Semester.create([
 		    { :university_id => 1, :name => 'סתיו תשע"ט', :year => 2019, :semester => 1,
