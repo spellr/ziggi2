@@ -27,9 +27,9 @@ end
 
 if Semester.count < 1
     Semester.create([
-		    { :university_id => 1, :name => 'אביב תשע"ח', :year => 2018, :semester => 2,
-			:start => DateTime.new(2018, 3, 3), :end => DateTime.new(2018, 6, 28),
-			:exams_start => DateTime.new(2018, 6, 30), :exams_end => DateTime.new(2018, 8, 9),
+		    { :university_id => 1, :name => 'סתיו תשע"ט', :year => 2019, :semester => 1,
+			:start => DateTime.new(2018, 10, 14), :end => DateTime.new(2019, 1, 11),
+			:exams_start => DateTime.new(2019, 1, 13), :exams_end => DateTime.new(2019, 2, 22),
           :active => true},
 		    { :university_id => 2, :name => 'אביב תשע"ג', :year => 2013, :semester => 2,
 			:start => DateTime.new(2013, 3, 10), :end => DateTime.new(2013, 6, 28),
